@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTENOS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <p>Via Telefonica</P>
+<p>3333333333</p>
+<title>Via wasaph</title>
+<p>455454544</p>
+<p>Via Correo electronico</P>
+<p>contaguia@gmail.com</p>
+<P>Pagina Web</P>
+<p>www.contaguia.com</p>
+
+<h3>DEJENOS SUS DATOS Y LO CONTACTAREMOS</h3>
+<div class="formulario">
+<form action="/enviar_datos" method="get">
+    <label for="nombre">Nombre Completo:</label>
+    <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre completo">
+
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+
+    <label for="Telefono">Telefono:</label>
+    <input type="Telefono" id="Telefono" name="Telefono" required>
+
+    <label>Género:</label>
+    <input type="radio" name="genero" value="masculino"> Masculino
+    <input type="radio" name="genero" value="femenino"> Femenino
+
+    <label>Intereses:</label>
+    <input type="checkbox" name="interes" value="Asesoria Contable"> Asesoria Contable
+    <input type="checkbox" name="interes" value="Asesoria Tributaria"> Asesoria Tributaria
+    <input type="checkbox" name="interes" value="Asesoria Financiera"> Asesoria Financiera
+    <input type="checkbox" name="interes" value="Asesoria Comercial"> Asesoria Comercial
+    <input type="checkbox" name="interes" value="Asesoria Legal"> Asesoria Legal
+
+    <label for="pais">País:</label>
+    <select id="pais" name="pais">
+        <option value="Colombia">Colombia</option>
+        <option value="España">España</option>
+        <option value="Australia">Australia</option>
+    </select>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Deshacer</button>
+</form>
+</div>
+</body>
+</html
